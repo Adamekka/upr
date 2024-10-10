@@ -1,0 +1,3 @@
+#!/bin/sh
+
+clang "$1.c" -g -fsanitize=address -std=c99 -Wno-unused-result -Wall -Wextra -Wconversion -Werror=uninitialized -Werror=vla -Werror=return-type -lm && ./a.out
