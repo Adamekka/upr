@@ -1,3 +1,5 @@
+//! Nastavení prostředí, základy C
+
 #include <stdint.h>
 #include <stdio.h>
 
