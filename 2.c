@@ -155,11 +155,10 @@ int main() {
                 puts("x");
             }
 
-            if (legs_done) {
+            if (legs_done)
                 break;
-            } else {
+            else
                 legs_done = true;
-            }
 
             for (uint32_t i = 0; i < a; i++)
                 putchar('x');

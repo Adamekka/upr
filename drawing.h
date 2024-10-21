@@ -122,9 +122,8 @@ void clear_screen() {
     // Move cursor to origin
     move_to(1, 1);
     // Create canvas
-    for (int i = 0; i < canvas_height; i++) {
+    for (int i = 0; i < canvas_height; i++)
         printf("\n");
-    }
     move_to(1, 1);
     flush();
 }
@@ -146,9 +145,8 @@ void draw_pixel() {
 void end_drawing() {
     reset_color();
     move_to(1, 1);
-    for (int i = 0; i < canvas_height; i++) {
+    for (int i = 0; i < canvas_height; i++)
         move_down();
-    }
     printf("\n");
     show_cursor();
 }
